@@ -1,0 +1,239 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,200;1,300;1,500;1,600&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,400;1,600&family=Roboto:ital,wght@0,400;0,500;0,700;1,100;1,300&display=swap');
+  body{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+  }
+  .nav-item{
+    color: black;
+    padding: 0 10px;
+    transition: .3s ease;
+  }
+  .nav-link:hover,
+  .Active{
+    color:coral;
+    cursor: pointer;
+
+  }
+  .navbar{
+    box-shadow: 0 5px 10px rgba(0, 0, 0,.2);
+
+  }
+   .navbar-toggler {
+    border: none;
+    outline: none;
+    background-color: coral;
+    color: #fff;
+    padding: 10px 20px;
+   }
+   .navbar-toggler:focus ,
+   .navbar-toggler:hover{
+    outline: none;
+    border: none;
+    box-shadow: none;
+   }
+   .navbar-toggler[aria-expanded="true"]{
+    background-color: black;
+    color: coral;
+   }
+
+#home{
+    background-image: url("../img/back.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top 60px center;
+   }
+   #home span{
+    color: coral;
+   }
+   #home{
+    display: flex;
+    align-items: center;
+   }
+   button{
+    border: none;
+    outline: none;
+    background-color: #1d1d1d;
+    color:#fff;
+    padding: 13px 30px;
+    text-transform: uppercase;
+
+   }
+   .homebtn:hover{
+    background-color: #050502;
+    color: coral;
+   }
+
+
+
+#new .one{
+    position: relative;
+
+
+}
+
+#new .one img{
+    width: 100%;
+    height: 100%;
+
+}
+#new .one:hover .details {
+    cursor: pointer;
+    background-color: rgba(245, 178, 178,.7);
+}
+#new .one .details{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0; 
+   
+   }
+
+
+   #new button{
+       display: inline-block;
+       font-size: 14px;
+       font-weight: 500;
+       color: #2a2a2a;
+        background: none;
+        text-transform: uppercase;
+    border-bottom:2px solid #2a2a2a;
+    padding: 2.5px ;
+    transform: translateY(70px);
+   }
+   
+   #new button:hover{
+ color: #fff;
+ border-bottom:2px solid #fff;
+   }
+
+   #new .one:nth-child(1) .details{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: flex-start;
+text-align: start;
+   }
+   #new .one:nth-child(2) .details{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items:center;
+text-align: center;
+   }
+   #new .one:nth-child(3) .details{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: flex-end;
+text-align: end;
+   }
+
+
+
+   /* ******************************* */
+   hr{
+    background-color: rgb(253, 71, 5);
+    width: 50px;
+    height: 3px ;
+    outline: none;
+    border: none;
+   }
+
+
+    .fa-star {
+      /* font-size: 1.5rem; */
+      color: gold;
+    }
+
+    .product img{
+      cursor: pointer;
+    }
+
+    .product img:hover{
+      opacity: .7;
+    }
+  .product:hover .buy-btn{
+      transform: translateY(0);
+      opacity: 1;
+      transition: .6s ease;
+
+    }
+
+
+    .buy-btn{
+      background-color: coral;
+      color: #fff;
+      transition: .6s ease;
+      transform: translateY(30px);
+      opacity: 0;
+    }
+    .buy-btn:hover{
+      background-color: rgb(247, 109, 59);
+
+    }
+
+
+   #banner {
+    background-image: url("../img/banner/2.jpg");
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top 70px center;
+    color: #fff;
+   }
+   #banner button{
+    background-color: coral;
+    color: #fff;
+    transition: .5s ease;
+   }
+   .links a ,.footerp {
+    font-size: .7em;
+
+   }
+
+   .Address .text-white-50{
+    font-size: .7em;
+    line-height: 2.5em;
+
+   }
+   .links a:hover{
+    /* color: #fff; */
+    border-bottom: 1px solid #fff;
+    background-color: #282826;
+   }
+
+  .socials a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
+   }
+   .socials a :hover{
+    cursor: pointer;
+    color: coral;
+   }
+
+
+   /********blogs*******/
+   .blog .post-img{
+  overflow: hidden;
+    cursor: pointer;
+    transition: .5s ease;
+   }
+   .blog .post-img img{ 
+    transition: .5s ease;
+   }
+   .blog .post:hover img {
+    transform: scale(1.2) rotate(2deg);
+    opacity: .8;
+}
+.blog .post:hover h5{
+  color: coral;
+  cursor: pointer;
+}
